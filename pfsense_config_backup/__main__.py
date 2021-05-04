@@ -1,7 +1,7 @@
 import os
 import time
 
-from pfsense_client import PfsenseClient
+from pfsense_config_backup.pfsense_client import PfsenseClient
 from pfsense_config_backup import config
 
 
