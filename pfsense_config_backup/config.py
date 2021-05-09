@@ -10,5 +10,5 @@ base_url = os.getenv("pfsense_base_url")
 
 skip_backup_rrd = True if os.getenv("skip_backup_rrd", "true").lower() == "true" else False
 
-verify_requests = False if os.getenv("verify_requests", "True").lower() == "false" else True
+verify_requests = False if os.getenv("verify_requests", "true").lower() == "false" else True
 backups_path = os.getenv("backups_path")
